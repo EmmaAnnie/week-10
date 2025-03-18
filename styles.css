@@ -7,3 +7,10 @@ details{
 details summary{
     background-color: pink;
 }
+dialog{
+    border: 3px solid palevioletred;
+}
+dialog::backdrop{
+    background-color: black;
+    opacity: 0.75;
+}
