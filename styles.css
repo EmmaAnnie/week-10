@@ -41,3 +41,14 @@ dialog::backdrop{
     padding: 1rem;
     opacity: 0.75;
 }
+#hero p{
+    background-color: white;
+    padding: 0.5rem;
+    opacity: 0.75;
+}
+#hero a{
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem;
+    opacity: 0.75;
+}
