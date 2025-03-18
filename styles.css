@@ -10,7 +10,7 @@ body{
     font-style: normal;
     /*background-image: url(images/tiled-bg.png);*/
 
-    background-image: linear-gradient(rgb(0, 213, 255), rgb(132, 44, 162), pink);
+    /*background-image: linear-gradient(rgb(0, 213, 255), rgb(132, 44, 162), pink);*/
 }
 details{
     border: 1px solid palevioletred;
@@ -43,6 +43,7 @@ dialog::backdrop{
 }
 #hero p{
     background-color: white;
+    color: black;
     padding: 0.5rem;
     opacity: 0.75;
 }
@@ -51,4 +52,15 @@ dialog::backdrop{
     background-color: white;
     padding: 0.5rem;
     opacity: 0.75;
+}
+
+@media (prefers-color-scheme-dark){
+    body{
+        background-color: black;
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme-light){
+
 }
