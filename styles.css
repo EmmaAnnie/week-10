@@ -3,9 +3,12 @@
 }
 details{
     border: 1px solid palevioletred;
+    border-radius: 10px;
+    margin-bottom: 1rem;
 }
 details summary{
     background-color: pink;
+    border-radius: 10px 10px 0 0;
 }
 dialog{
     border: 3px solid palevioletred;
