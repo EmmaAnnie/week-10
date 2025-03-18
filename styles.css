@@ -28,4 +28,7 @@ dialog::backdrop{
 #hero{
     border: 1px solid palevioletred;
     background-image: url(images/banff.webp);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 467px;
 }
