@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 details{
     border: 1px solid palevioletred;
 }
