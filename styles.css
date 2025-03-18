@@ -25,6 +25,8 @@ details summary{
 }
 dialog{
     border: 3px solid palevioletred;
+
+    background-color: light-dark(white, black);
 }
 dialog::backdrop{
     background-color: black;
