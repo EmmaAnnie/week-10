@@ -25,3 +25,7 @@ dialog::backdrop{
     background-color: black;
     opacity: 0.75;
 }
+#hero{
+    border: 1px solid palevioletred;
+    background-image: url(images/banff.webp);
+}
